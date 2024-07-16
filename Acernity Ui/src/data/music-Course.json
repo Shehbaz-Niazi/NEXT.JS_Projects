@@ -1,0 +1,65 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Nusrat Fateh Ali Khan",
+      "title": "The King of Qawwali",
+      "slug": "nusrat-fateh-ali-khan",
+      "description": "Nusrat Fateh Ali Khan was a Pakistani vocalist and musician, primarily a singer of Qawwali, the devotional music of the Sufis. He possessed an extraordinary range of vocal abilities and could perform at a high level of intensity for several hours.",
+      "price": 29.99,
+      "isFeatured": true,
+      "instructor_image": "/nusrat.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Abida Parveen",
+      "title": "The Queen of Sufi Music",
+      "slug": "abida-parveen",
+      "description": "Abida Parveen is a renowned Pakistani Sufi singer, often referred to as one of the greatest Sufi vocalists of our time. Her powerful voice and emotive renditions of Sufi poetry have earned her global acclaim.",
+      "isFeatured": true,
+      "price": 24.99,
+      "instructor_image": "/abida.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Atif Aslam",
+      "title": "The Heartthrob of Pakistan",
+      "slug": "atif-aslam",
+      "description": "Atif Aslam is a Pakistani singer-songwriter and actor known for his soulful voice and romantic ballads. He has a massive fan following in Pakistan and across the world.",
+      "price": 59.90,
+      "isFeatured": true,
+      "instructor_image": "/atif.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rahat Fateh Ali Khan",
+      "title": "The Maestro of Soulful Music",
+      "slug": "rahat-fateh-ali-khan",
+      "description": "Rahat Fateh Ali Khan is a Pakistani singer known for his mastery of Qawwali and Sufi music, following in the footsteps of his uncle, Nusrat Fateh Ali Khan. He has achieved international fame for his powerful vocals.",
+      "price": 19.99,
+      "isFeatured": true,
+      "instructor_image": "/rahat.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Noor Jehan",
+      "title": "Malika-e-Tarannum (Queen of Melody)",
+      "slug": "noor-jehan",
+      "description": "Noor Jehan was a legendary Pakistani singer and actress who dominated the film industry in the subcontinent for decades. She is celebrated for her versatile singing and acting skills.",
+      "price": null,
+      "isFeatured": true,
+      "instructor_image": "/courses/noor.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ali Zafar",
+      "title": "The Rockstar of Pakistan",
+      "slug": "ali-zafar",
+      "description": "Ali Zafar is a Pakistani singer-songwriter, actor, and painter known for his pop and rock music. He has also appeared in several successful Pakistani and Bollywood films.",
+      "price": 14.99,
+      "isFeatured": true,
+      "instructor_image": "/ali.jpg"
+    }
+  ]
+}
+
