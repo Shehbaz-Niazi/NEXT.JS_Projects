@@ -23,7 +23,7 @@ export const HeroSection = () => {
           className="mt-4 font-normal text-base md:text-lg text-neutral-300
              max-w-lg mx-auto "
         >
-          Master the Art of Music" is your destination for exploring diverse
+          Master the Art of Music is your destination for exploring diverse
           genres and refining your musical skills. Join us to deepen your
           understanding and appreciation of music.
         </p>

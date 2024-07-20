@@ -1,7 +1,6 @@
 "use client";
 
-// Corrected TodosProvider component in todos.tsx
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 export type Todo = {
   id: string;
@@ -20,10 +19,14 @@ export type TodosContext = {
 export const TodosContext = createContext<TodosContext | null>(null);
 
 export const TodosProvider = ({ children }: { children: React.ReactNode }) => {
-  const [todos, setTodos] = useState<Todo[]>(()=>{
-    const newTodos = localStorage.getItem("todos") ||"[]"
-    return JSON.parse(newTodos) as Todo[]
-  });
+  const [todos, setTodos] = useState<Todo[]>([]);
+
+  useEffect(() => {
+    const storedTodos = localStorage.getItem("todos");
+    if (storedTodos) {
+      setTodos(JSON.parse(storedTodos));
+    }
+  }, []);
 
   const handleAddTodo = (task: string) => {
     setTodos((prevTodos) => {
@@ -34,10 +37,9 @@ export const TodosProvider = ({ children }: { children: React.ReactNode }) => {
           completed: false,
           createAt: new Date(),
         },
-
         ...prevTodos,
       ];
-      localStorage.setItem("todos", JSON.stringify(newTodos))
+      localStorage.setItem("todos", JSON.stringify(newTodos));
       return newTodos;
     });
   };
@@ -52,7 +54,7 @@ export const TodosProvider = ({ children }: { children: React.ReactNode }) => {
         return task;
       });
 
-      localStorage.setItem("todos", JSON.stringify(newTodos))
+      localStorage.setItem("todos", JSON.stringify(newTodos));
       return newTodos;
     });
   };
@@ -61,7 +63,7 @@ export const TodosProvider = ({ children }: { children: React.ReactNode }) => {
   const handleTodoDelete = (id: string) => {
     setTodos((preVal) => {
       const newTodos = preVal.filter((task) => task.id !== id);
-      localStorage.setItem("todos", JSON.stringify(newTodos))
+      localStorage.setItem("todos", JSON.stringify(newTodos));
       return newTodos;
     });
   };

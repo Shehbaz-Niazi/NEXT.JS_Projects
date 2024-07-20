@@ -92,7 +92,10 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-        <ul>
+          <h2 className="text-white font-lg font-semibold mb-4">
+            Social Links
+          </h2>
+          <ul>
             <li>
               <a
                 href="#"
@@ -124,6 +127,16 @@ const Footer = () => {
               >
                 Twitter
               </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+        <ul>
+            <li>
+              
+            </li>
+            <li>
+             
             </li>
           </ul>
         </div>
