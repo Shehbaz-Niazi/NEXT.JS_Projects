@@ -15,31 +15,31 @@ const Project = () => {
           {/* Projects Parts Boxes */}
           <div className="flex flex-wrap -m-8">
             <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
+<div className="flex relative">
                 <Image
                   width={1000}
                   height={1000}
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../public/assets/picture/conditional.png")}
+                  src={require("../public/assets/picture/musicplay.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    Conditional Randring in Nextjs 14
+                    Music Website Using Nextjs 14
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    RANDRING
+                    Play Music
                   </h1>
                   <Link href={"https://rendring.vercel.app/"}>
                     <p className="leading-relaxed">
-                      This is My First Project Which is Conditional Randring.
+                      This is My Project Which is Music Play .
                     </p>
                     <p className="leading-relaxed text-blue-600 hover:underline">
                       View Project..
                     </p>
                   </Link>
                 </div>
-              </div>
+</div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">

@@ -10,11 +10,7 @@ const Contact = () => {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameBorder={0}
               title="map"
-              marginHeight={0}
-              marginWidth={0}
-              scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4009495728637!2d66.95236147451169!3d24.95246964157133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36b891a380583%3A0x289eb1e89c01ce89!2sYousuf%20goth%20baldia%20town%20karachi!5e0!3m2!1sen!2s!4v1718857244487!5m2!1sen!2s"
               style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
             />
@@ -47,10 +43,10 @@ const Contact = () => {
               Contact
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
-              "Feel free to get in touch with me! I'd love to hear from you.
+              Feel free to get in touch with me! I did love to hear from you.
               Whether you have questions about my services, need help with a
-              project, or just want to say hello, I'm here to help. Fill out the
-              form below, and I'll get back to you as soon as possible.
+              project, or just want to say hello, I am here to help. Fill out the
+              form below, and I will get back to you as soon as possible.
             </p>
             <form action="https://formspree.io/f/mvgppoon"
             method="POST">
